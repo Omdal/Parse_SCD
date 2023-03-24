@@ -15,7 +15,19 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# What it does
+# What is an SCD
+
+An SCD is a System Control Diagram drawn according to the standard
+IEC-63131. It shows the relation between function blocks in industrial
+control systems.
+
+# The goal of this project
+The goal of this project is to simplify the next steps in the use of
+SCDs. After drawing the SCD in Visio, this script extracts infromation
+from the Visio drawing to simplify automatic generation of sourcecode
+and documentation.
+
+# What the script does
  
 This script extracts all function blocks from a Visio SCD drawing and save
 the result in a .csv file with the same name as the Visio SCD drawing.
